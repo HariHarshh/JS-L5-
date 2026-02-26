@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <style>
+        body {
+            background-color: aqua;
+            
+        }
+    </style>
+   <h1>Object Date Structure and Array</h1> 
+   <script>
+
+    var person ={
+        name:"Harshh Thakur" ,
+        address:"Pune",
+      gender:"Male"
+    };
+
+    document.write(person.name + "<br>");
+    document.write(person.address + "<br>");
+    document.write(person.gender + "<br><br>");
+
+    var color = ["Red", "Blue", "Green"];
+
+         document.write("Colors are: " + color.join(", ") + "<br>");
+
+         color.pop();    
+         
+         document.write("<br> After deleting the colour:" + color.join(", ")); 
+        
+         color.pop()
+         
+         document.write("<br> <br> After deleting the colour:" + color.join(", "));
+   </script>
+</body>
+</html>   
